@@ -1,56 +1,36 @@
-<h1 align="center"><img src="docs/HyperChat.png" alt="HyperChat" width="400px"></h1>
-<p align="center">A minimal realtime chat app with rooms, Built with SocketIO and on Expressjs.</p>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Getting Started
 
-## 🚀 Development
+First, run the development server:
 
-### Install
-
-```sh
-yarn install
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### Usage
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```sh
-yarn run start
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Run tests
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```sh
-yarn run test
-```
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
-## Road Map
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-|SN | Issue |Priority |
-|--|:--| --|
-|1.  |Make messages and rooms persiatnt| ?| 
-|2.  |Add authentication and user profiles| ?| 
-|3.  |typing feature| ?| 
-|4.  |Generate invite links| ?| 
-|5.  |Single usernames| ?| 
-|6.  |24hr texts lifetime span*| ?| 
-|7.  |Rate limit and helmet| ?| 
-|8.  |Message limit| ?| 
-|9.  |Message saniization| ?| 
-|10. |small file upload| ?| 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Author
+## Deploy on Vercel
 
-- 👤 Alpha Olomi: [@alphaolomi](https://twitter.com/alphaolomi)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check [issues page](https://github.com/alphaolomi/hyper-chat/issues). You can also take a look at the [contributing guide](https://github.com/alphaolomi/hyper-chat/blob/master/CONTRIBUTING.md).
-
-
-
-
-## 📝 License
-
-This project is [BSD](https://github.com/alphaolomi/hyper-chat/blob/master/LICENSE) licensed.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
